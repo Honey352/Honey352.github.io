@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>STAND ALONE SENIOR HIGHSCHOOL</title>
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightyellow;
+           
+        }
+
+        header {
+            background-color: blue; 
+            color: #fff; 
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff; 
+            font-weight: bold;
+            transition: color 0.3s ease; /* Smooth color change on hover */
+        }
+
+        nav a:hover {
+            color: #007bff; /* Blue on hover */
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            background-color: #fff; 
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+        }
+
+        /* Hero Section Styling */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 40px;
+        }
+
+        .hero-text {
+            text-align: left;
+            width: 50%;
+        }
+
+        .hero img {
+            max-width: 500px;
+            height: auto;
+            border-radius: 8px;
+            border: 3px solid #007bff; /* Blue border around the image */
+        }
+
+        /* Section Headings */
+        h2 {
+            color: #333; 
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-align: center; 
+        }
+
+        /* Contact Section */
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin: 0 auto; /* Center the form */
+        }
+
+        .contact label {
+            margin-bottom: 5px;
+        }
+
+        .contact input,
+        .contact textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .contact button {
+            background-color: #007bff; 
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333; 
+            color: #fff; 
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        /* Hero Text Animation */
+        .hero-text h2 {
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .hero-text p {
+            animation: fadeInUp 1.2s ease-in-out;
+        }
+
+        .learn-more {
+            animation: fadeInUp 1.4s ease-in-out;
+            background-color: #007bff; 
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .learn-more:hover {
+            background-color: #0056b3; 
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>STAND ALONE SENIOR HIGHSCHOOL</h1>
+        <nav>
+            <ul>
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="2nd page.htm">About Us</a></li>
+                <li><a href="3rd page.htm">Academics</a></li>
+                <li><a href="4th page.htm">Admissions</a></li>
+                <li><a href="5th page.htm">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+  <h2>ADMISSIONS</h2>
+ 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="Stylesheet" href="Feature.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    
+        
+        .slideshow-container {
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+          
+        }
+        .slide {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            opacity: 0;
+            animation: slide-animation 12s infinite;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .slide:nth-child(1) { animation-delay: 0s; }
+        .slide:nth-child(2) { animation-delay: 4s; }
+        .slide:nth-child(3) { animation-delay: 8s; }
+        @keyframes slide-animation {
+            0% { opacity: 0; transform: translateX(100%); }
+            10%, 30% { opacity: 1; transform: translateX(0); }
+            40% { opacity: 0; transform: translateX(-100%); }
+            100% { opacity: 0; }
+        }
+        .slide img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+        
+    </style>
+    <div class="slideshow-container">
+        <div class="slide">
+          <img src="picture(5).jpg" alt="picture">
+        </div>
+        <div class="slide">
+          <img src="picture(7).jpg" alt="picture(7)">
+        </div>
+        <div class="slide">
+          <img src="picture(6).jpg" alt="picture(7)">        
+            </div>
+      </div>
+    
+    <h2>Please bring the following:</h2>
+    <h>•Original Grade 10 Report Card ( SF 9)</p>
+   <p>• Copy of Birth Certificate (NSO/PSA)</p>
+    <p>•Original Grade 10 Report Card ( SF 9)</p>
+ <p>•Good Moral Certificate ( if available)</p>
+ <p>1pc. 2x2 ID Picture </p>
+    <p>• 1 long brown envelope</p>
+    <h1>Note: No Parent/ Legal Guardian No Enrollment
+
+</h1>

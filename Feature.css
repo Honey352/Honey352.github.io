@@ -1,0 +1,16 @@
+body {
+  background-color: #000alf;
+}
+
+.container {
+  margin: 100px 0 0 200px;
+  width: 70%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 10px
+}
+
+.container img{
+  
+}

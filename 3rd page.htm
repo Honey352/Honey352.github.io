@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+       
+        body {
+       
+    
+            font-family: 'Arial', sans-serif;
+            position:relative;
+            margin: 0;          
+            padding :0;
+            background-image: url('SASHS2.jpg');       
+            background-repeat:no-repeat;
+            background-size:cover;
+            height:100vh;
+            background-position:40% 60%;
+            
+        }
+
+        header {
+            background-color: blue; 
+            color: #fff; 
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff; 
+            font-weight: bold;
+            transition: color 0.3s ease; /* Smooth color change on hover */
+        }
+
+        nav a:hover {
+            color: #007bff; /* Blue on hover */
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            background-color: #fff; 
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+        }
+
+        /* Hero Section Styling */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 40px;
+        }
+
+        .hero-text {
+            text-align: left;
+            width: 50%;
+        }
+
+        .hero img {
+            max-width: 500px;
+            height: auto;
+            border-radius: 8px;
+            border: 3px solid #007bff; /* Blue border around the image */
+        }
+
+        /* Section Headings */
+        h2 {
+            color: #333; 
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-align: center; 
+        }
+
+        /* Contact Section */
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin: 0 auto; /* Center the form */
+        }
+
+        .contact label {
+            margin-bottom: 5px;
+        }
+
+        .contact input,
+        .contact textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .contact button {
+            background-color: #007bff; 
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333; 
+            color: #fff; 
+            padding: 10px;
+            text-align: center;
+            position:fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        /* Hero Text Animation */
+        .hero-text h2 {
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .hero-text p {
+            animation: fadeInUp 1.2s ease-in-out;
+        }
+
+        .learn-more {
+            animation: fadeInUp 1.4s ease-in-out;
+            background-color: #007bff; 
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .learn-more:hover {
+            background-color: #0056b3; 
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+     #SAHS {
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         object-fit: cover;
+         position: crelative;
+         top: 60px;
+         left: 50px;
+         filter: drop-shadow(10px 7px 20px black);
+     }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="imglogo">
+            <img id="SAHS" src="SASHS2.jpg">
+        </div>
+        <h1>STAND ALONE SENIOR HIGHSCHOOL</h1>
+        <nav>
+            <ul>
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="2nd page.htm">About Us</a></li>
+                <li><a href="3rd page.htm">Academics</a></li>
+                <li><a href="4th page.htm">Admissions</a></li>
+                <li><a href="5th page.htm">Gallery</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Stand alone </title>
+    <style>
+        /* Reset default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Body and overall styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #003366 0%, #00509e 100%);
+            color: black;
+            display: flex;
+            min-height: 100vh;
+            flex-direction: row;
+            background-size: cover;
+        }
+
+        /* Left Sidebar */
+        .sidebar {
+            width: 250px;
+            background-color: #003366;
+            padding: 20px;
+            color: white;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            box-shadow: 4px 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .sidebar .logo {
+            height: 100px;
+            width: 100px;
+            margin: 0 auto 20px;
+            display: block;
+            border-radius: 50%;
+            object-fit: cover;
+            
+        }
+
+        .sidebar h1 {
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            margin-top: 30px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 15px 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 12px;
+            background-color: #00509e;
+            border-radius: 8px;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #ffcc00;
+            color: #003366;
+            transform: scale(1.1);
+        }
+
+        /* Main content area */
+        main {
+            flex-grow: 1;
+            margin-left: 250px;
+            padding: 40px;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        section:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: #003366;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #003366;
+            text-align: center;
+            color: white;
+            padding: 20px;
+            position: relative;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+                position: static;
+            }
+
+            main {
+                margin-left: 0;
+                padding: 20px;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            section {
+                padding: 15px;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            img {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+        <img src="SASHS2.jpg" alt="School Logo" class="logo">
+        <h1> ACADEMICS STRAND </h1>
+        <nav>
+            <ul>
+                <li><a href="#STEM"> STEM </a></li>
+                <li><a href="#GAS"> GAS </a></li>
+                <li><a href="#HUMSS"> HUMSS </a></li>
+                <li><a href="#ICT"> ICT </a></li>
+                <li><a href="#EIM"> EIM </a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Menu Section -->
+        <section id="STEM">
+            <h2> STEM </h2>
+            <p>STEM is an approach to learning and development that integrates the areas of science, technology, engineering and mathematics.</p>
+            <img src="picture(3).jpg" alt="Menu Image">
+        </section>
+
+        <!-- Activities/Gallery Section -->
+        <section id="GAS">
+            <h2> GAS </h2>
+            <p> GAS is a Senior High School strand that takes on a generalist approach in preparing students for college.</p>
+            <img src="picture.jpg" alt="Activities Image">
+        </section>
+
+        <!-- Events Section -->
+        <section id="HUMSS">
+            <h2> HUMSS </h2>
+            <p>The Humanities and Social Sciences (HUMSS) strand covers topics in the liberal arts, training students to think, write, and speak about various humanistic and societal concerns.</p>
+            <img src="picture(2).jpg" alt="Events Image">
+        </section>
+
+        <!-- School Organizational Chart Section -->
+        <section id="ICT">
+            <h2> ICT </h2>
+            <p>ICT is a Senior High School strand that prepares you for a career in Information and Communication Technology. </p>
+            <img src="picture(1).jpg" alt="Organization Image">
+        </section>
+
+        <!-- Contacts Section -->
+        <section id="EIM">
+            <h2> EIM </h2>
+            <p>The EIM strand trains students in domestic refrigeration and air conditioning servicing, transmission line installation and maintenance, and electrical installation and maintenance.</p>
+<img src="picture(4).jpg" alt="Organization Image">
+        
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; stand alone shs within taguig integrated school.</p>
+    </footer>
+
+</body>
+</html>
